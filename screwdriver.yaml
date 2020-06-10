@@ -1,0 +1,4 @@
+jobs:
+  main:
+    template: nodejs_main
+    requires: [~pr, ~commit]
