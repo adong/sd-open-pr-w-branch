@@ -1,0 +1,7 @@
+jobs:
+  main:
+    requires: [~pr, ~commit]
+    image: node:12
+    steps:
+      - a: 'echo ok'
+      - b: 'echo ok'
